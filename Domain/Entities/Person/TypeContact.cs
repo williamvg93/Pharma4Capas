@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 namespace Domain.Entities.Person;
 
 public class TypeContact : BaseEntity
+
 {
     public string Name { get; set; }
 

@@ -8,5 +8,6 @@ namespace Domain.Interfaces.UserAuthen;
 
 public interface IUserRepo : IGenericRepository<User>
 {
-
+    Task<User> GetByUsernameAsync(string username);
+    Task<User> GetByRefreshTokenAsync(string username);
 }
