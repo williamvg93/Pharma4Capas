@@ -6,7 +6,7 @@ using Domain.Entities.Location;
 
 namespace Domain.Interfaces.Location;
 
-public interface IDepartment : IGenericRepository<Department>
+public interface IDepartRepo : IGenericRepository<Department>
 {
 
 }

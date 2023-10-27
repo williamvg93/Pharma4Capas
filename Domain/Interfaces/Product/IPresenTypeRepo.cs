@@ -6,7 +6,7 @@ using Domain.Entities.Product;
 
 namespace Domain.Interfaces.Product;
 
-public interface IProductBrand : IGenericRepository<ProductBrand>
+public interface IPresenTypeRepo : IGenericRepository<PresentationType>
 {
 
 }

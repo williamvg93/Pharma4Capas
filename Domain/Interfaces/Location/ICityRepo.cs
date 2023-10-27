@@ -7,7 +7,7 @@ using Domain.Entities.Location;
 
 namespace Domain.Interfaces.Location;
 
-public interface ICity : IGenericRepository<City>
+public interface ICityRepo : IGenericRepository<City>
 {
 
 }

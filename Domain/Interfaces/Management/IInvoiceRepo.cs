@@ -6,7 +6,7 @@ using Domain.Entities.Management;
 
 namespace Domain.Interfaces.Management;
 
-public interface IInvoice : IGenericRepository<Invoice>
+public interface IInvoiceRepo : IGenericRepository<Invoice>
 {
 
 }

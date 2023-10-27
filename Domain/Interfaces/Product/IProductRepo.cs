@@ -6,7 +6,7 @@ using Domain.Entities.Product;
 
 namespace Domain.Interfaces.Product;
 
-public interface ICProduct : IGenericRepository<CProduct>
+public interface IProductRepo : IGenericRepository<CProduct>
 {
 
 }

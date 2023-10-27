@@ -6,7 +6,7 @@ using Domain.Entities.Person;
 
 namespace Domain.Interfaces.Person;
 
-public interface IAddress : IGenericRepository<Address>
+public interface IPersContRepo : IGenericRepository<PersonContact>
 {
 
 }

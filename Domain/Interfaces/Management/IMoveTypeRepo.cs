@@ -6,7 +6,7 @@ using Domain.Entities.Management;
 
 namespace Domain.Interfaces.Management;
 
-public interface IMovementDetail : IGenericRepository<MovementDetail>
+public interface IMoveTypeRepo : IGenericRepository<MovementType>
 {
 
 }

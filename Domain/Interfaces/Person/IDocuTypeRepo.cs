@@ -5,8 +5,7 @@ using System.Threading.Tasks;
 using Domain.Entities.Person;
 
 namespace Domain.Interfaces.Person;
-
-public interface ITypeContact : IGenericRepository<TypeContact>
+public interface IDocuTypeRepo : IGenericRepository<DocumentType>
 {
 
 }

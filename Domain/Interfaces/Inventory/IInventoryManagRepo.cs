@@ -6,7 +6,7 @@ using Domain.Entities.Inventory;
 
 namespace Domain.Interfaces.Inventory;
 
-public interface ICInventory : IGenericRepository<CInventory>
+public interface IInventoryManagRepo : IGenericRepository<InventoryManagement>
 {
 
 }

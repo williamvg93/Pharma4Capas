@@ -6,7 +6,7 @@ using Domain.Entities.Management;
 
 namespace Domain.Interfaces.Management;
 
-public interface IPaymentMethod : IGenericRepository<PaymentMethod>
+public interface IPayMethRepo : IGenericRepository<PaymentMethod>
 {
 
 }

@@ -6,7 +6,7 @@ using Domain.Entities.Person;
 
 namespace Domain.Interfaces.Person;
 
-public interface ICPerson : IGenericRepository<CPerson>
+public interface IRolePersRepo : IGenericRepository<RolePerson>
 {
 
 }
