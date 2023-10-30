@@ -7,7 +7,5 @@ namespace ApiPharma.Services;
 
 public interface IUserService
 {
-
     Task<String> RegisterAsync();
-
 }
